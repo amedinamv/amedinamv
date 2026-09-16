@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://andresmv.com">
-    <img src="./banner-v3.svg" alt="Andres Medina - Product and UX designer. Portfolio at andresmv.com" width="100%" />
+    <img src="./banner-v4.png" alt="Andres Medina - Product and UX designer. Portfolio at andresmv.com" width="100%" />
   </a>
 </p>
 

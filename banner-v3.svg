@@ -1,40 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
-  <title id="title">Andres Medina - portfolio</title>
-  <desc id="desc">TODAY portfolio banner using the real AMV mark on warm paper.</desc>
-  <defs>
-    <filter id="grain" x="0%" y="0%" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.03 0" in="n" result="g"/>
-      <feComposite in="g" in2="SourceGraphic" operator="in"/>
-    </filter>
-    <linearGradient id="rise" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f5f2ea" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#f5f2ea" stop-opacity="1"/>
-    </linearGradient>
-    <!-- real logo from apps/today-portfolio/public/brand/logo-original.svg -->
-    <g id="mark">
-      <path d="M24.2657 0.0656586C23.9657 -0.0343414 23.6657 0.0656593 23.5657 0.265659L0.165687 30.5657C-0.0343131 30.7657 -0.0343154 31.0657 0.0656846 31.2657C0.165685 31.4657 0.365687 31.6657 0.665687 31.6657H11.5657C11.7657 31.6657 11.9657 31.5657 12.0657 31.3657L16.3657 25.7657V30.8657C16.3657 31.2657 16.6657 31.5657 17.0657 31.5657H24.0657C24.4657 31.5657 24.7657 31.2657 24.7657 30.8657V0.765659C24.7657 0.465659 24.5657 0.165659 24.2657 0.0656586Z"/>
-      <path d="M88.4657 0.465675C88.3657 0.265675 88.1657 0.0656738 87.8657 0.0656738H76.9657C76.7657 0.0656738 76.5657 0.165673 76.4657 0.365673L72.1657 5.96568V0.865673C72.1657 0.465673 71.8657 0.165672 71.4657 0.165672H64.4657C64.0657 0.165672 63.7657 0.465673 63.7657 0.865673V31.0657C63.7657 31.3657 63.9657 31.5657 64.2657 31.6657C64.3657 31.6657 64.3657 31.6657 64.4657 31.6657C64.6657 31.6657 64.8657 31.5657 64.9657 31.3657L88.3657 1.16567C88.5657 0.965672 88.5657 0.665675 88.4657 0.465675Z"/>
-      <path d="M62.2657 0.165684C62.0657 0.0656845 61.7657 0.0656867 61.5657 0.265687L50.2657 8.66568L44.6657 5.16568C44.4657 5.06568 44.1657 5.06568 43.9657 5.16568L38.3657 8.56569L27.0657 0.165684C26.8657 -0.0343155 26.5657 -0.034314 26.3657 0.065686C26.1657 0.165686 25.9657 0.365684 25.9657 0.665684V30.9657C25.9657 31.2657 26.0657 31.4657 26.3657 31.5657C26.4657 31.5657 26.5657 31.6657 26.6657 31.6657C26.7657 31.6657 26.9657 31.6657 27.0657 31.5657L38.3657 23.0657L43.9657 26.4657C44.1657 26.5657 44.4657 26.5657 44.6657 26.4657L50.2657 23.0657L61.5657 31.4657C61.7657 31.6657 62.0657 31.6657 62.2657 31.5657C62.4657 31.4657 62.6657 31.2657 62.6657 30.9657V0.765687C62.5657 0.465687 62.4657 0.265684 62.2657 0.165684Z"/>
-    </g>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img">
+  <title>Andres Medina - portfolio</title>
   <rect width="1280" height="520" fill="#f5f2ea"/>
 
-  <!-- giant mark as landscape - cropped, playful scale -->
-  <use href="#mark" xlink:href="#mark" transform="translate(40, -40) scale(12.8)" fill="#181816" opacity="0.92"/>
+  <!-- real TODAY mark - large, fully visible, left-weighted -->
+  <g transform="translate(64,72) scale(7.8)" fill="#181816">
+    <path d="M24.2657 0.0656586C23.9657 -0.0343414 23.6657 0.0656593 23.5657 0.265659L0.165687 30.5657C-0.0343131 30.7657 -0.0343154 31.0657 0.0656846 31.2657C0.165685 31.4657 0.365687 31.6657 0.665687 31.6657H11.5657C11.7657 31.6657 11.9657 31.5657 12.0657 31.3657L16.3657 25.7657V30.8657C16.3657 31.2657 16.6657 31.5657 17.0657 31.5657H24.0657C24.4657 31.5657 24.7657 31.2657 24.7657 30.8657V0.765659C24.7657 0.465659 24.5657 0.165659 24.2657 0.0656586Z"/>
+    <path d="M88.4657 0.465675C88.3657 0.265675 88.1657 0.0656738 87.8657 0.0656738H76.9657C76.7657 0.0656738 76.5657 0.165673 76.4657 0.365673L72.1657 5.96568V0.865673C72.1657 0.465673 71.8657 0.165672 71.4657 0.165672H64.4657C64.0657 0.165672 63.7657 0.465673 63.7657 0.865673V31.0657C63.7657 31.3657 63.9657 31.5657 64.2657 31.6657C64.3657 31.6657 64.3657 31.6657 64.4657 31.6657C64.6657 31.6657 64.8657 31.5657 64.9657 31.3657L88.3657 1.16567C88.5657 0.965672 88.5657 0.665675 88.4657 0.465675Z"/>
+    <path d="M62.2657 0.165684C62.0657 0.0656845 61.7657 0.0656867 61.5657 0.265687L50.2657 8.66568L44.6657 5.16568C44.4657 5.06568 44.1657 5.06568 43.9657 5.16568L38.3657 8.56569L27.0657 0.165684C26.8657 -0.0343155 26.5657 -0.034314 26.3657 0.065686C26.1657 0.165686 25.9657 0.365684 25.9657 0.665684V30.9657C25.9657 31.2657 26.0657 31.4657 26.3657 31.5657C26.4657 31.5657 26.5657 31.6657 26.6657 31.6657C26.7657 31.6657 26.9657 31.6657 27.0657 31.5657L38.3657 23.0657L43.9657 26.4657C44.1657 26.5657 44.4657 26.5657 44.6657 26.4657L50.2657 23.0657L61.5657 31.4657C61.7657 31.6657 62.0657 31.6657 62.2657 31.5657C62.4657 31.4657 62.6657 31.2657 62.6657 30.9657V0.765687C62.5657 0.465687 62.4657 0.265684 62.2657 0.165684Z"/>
+  </g>
 
-  <!-- paper rise so type stays readable -->
-  <rect x="0" y="280" width="1280" height="240" fill="url(#rise)"/>
+  <!-- type sits under the mark with silence between - TODAY spacing instinct -->
+  <text x="64" y="400" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#181816" letter-spacing="-0.015em">Andres Medina</text>
+  <text x="64" y="438" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#181816" letter-spacing="-0.01em">Product &amp; UX designer. End-to-end product design and research.</text>
 
-  <!-- subtle grain overlay -->
-  <rect width="1280" height="520" filter="url(#grain)" opacity="0.5"/>
-
-  <!-- TODAY masthead energy: name + statement + status -->
-  <text x="64" y="360" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#181816" letter-spacing="-0.015em">Andres Medina</text>
-  <text x="64" y="404" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#181816" letter-spacing="-0.015em">Product &amp; UX designer. End-to-end product design and research.</text>
-
-  <circle cx="72" cy="448" r="5" fill="#ff4b12"/>
-  <text x="88" y="453" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#756e5e">Cali, Colombia / Remote / Available for select work</text>
-  <text x="1216" y="453" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#756e5e">andresmv.com</text>
+  <circle cx="72" cy="478" r="4.5" fill="#ff4b12"/>
+  <text x="88" y="483" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#756e5e">Cali, Colombia / Remote / Available for select work</text>
+  <text x="1216" y="483" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#756e5e">andresmv.com</text>
 </svg>
