@@ -9,12 +9,10 @@
     </filter>
   </defs>
 
-  <!-- split ground: paper left, ink right -->
   <rect width="1280" height="520" fill="#F5F4F0"/>
   <rect x="780" width="500" height="520" fill="#111110"/>
   <rect width="1280" height="520" filter="url(#grain)" opacity="0.9"/>
 
-  <!-- corner ticks -->
   <g stroke="#C8C7C1" stroke-width="1.5" fill="none">
     <path d="M40 40h28M40 40v28"/>
     <path d="M740 40h-28M740 40v28"/>
@@ -28,8 +26,7 @@
     <path d="M1240 480h-28M1240 480v-28"/>
   </g>
 
-  <!-- left: identity -->
-  <text x="64" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.14em">GITHUB / OVERVIEW  ·  v2</text>
+  <text x="64" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.14em">GITHUB / OVERVIEW  /  v2</text>
 
   <text x="64" y="200" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="#111110" letter-spacing="-0.04em">Andres Medina</text>
   <text x="64" y="248" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="24" fill="#6B6A65">Product &amp; UX designer.</text>
@@ -41,15 +38,13 @@
 
   <text x="64" y="420" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#111110">
     <tspan fill="#D4420A">dirt road &gt; garden path</tspan>
-    <tspan fill="#6B6A65">  ·  stay until it is done</tspan>
+    <tspan fill="#6B6A65">  /  stay until it is done</tspan>
   </text>
-  <text x="64" y="450" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6B6A65">Cali, Colombia  ·  Remote  ·  Select work</text>
+  <text x="64" y="450" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#6B6A65">Cali, Colombia  /  Remote  /  Select work</text>
 
-  <!-- right: big AMV + road cutting across the split -->
   <text x="1010" y="290" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="168" font-weight="900" fill="#F5F4F0" opacity="0.92" letter-spacing="-0.07em">AMV</text>
   <text x="1010" y="340" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#C8C7C1" letter-spacing="0.2em">NOT A CONTAINER</text>
 
-  <!-- dirt road crosses the whole banner -->
   <path d="M -40 380 C 200 340, 360 430, 560 370 S 820 300, 980 360 S 1160 420, 1320 340" fill="none" stroke="#D4420A" stroke-width="16" stroke-linecap="round"/>
   <path d="M -40 388 C 200 348, 360 438, 560 378 S 820 308, 980 368 S 1160 428, 1320 348" fill="none" stroke="#111110" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
 </svg>
