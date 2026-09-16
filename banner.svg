@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
-  <title id="title">Andres Medina  portfolio</title>
+  <title id="title">Andres Medina - portfolio</title>
   <desc id="desc">Warm paper ground, one orange dirt-road path, humanist type. ME brand system.</desc>
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
@@ -26,7 +26,7 @@
     <line x1="0" y1="356" x2="1280" y2="356"/>
   </g>
 
-  <!-- the dirt road  one electric moment (accent) -->
+  <!-- the dirt road - one electric moment (accent) -->
   <path
     d="M -40 310
        C 180 290, 260 340, 420 300
@@ -56,11 +56,11 @@
   <text x="64" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.08em">
     amedinamv / README.md
   </text>
-  <text x="920" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.06em" text-anchor="end">
-    not a container ù the argument
+  <text x="1216" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.06em" text-anchor="end">
+    not a container / the argument
   </text>
 
-  <!-- display (humanist grotesque ó system sans until final face ships) -->
+  <!-- display (humanist grotesque - system sans until final face ships) -->
   <text x="64" y="170" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#111110" letter-spacing="-0.03em">
     Andres Medina
   </text>
@@ -73,6 +73,6 @@
 
   <!-- playful soul wink -->
   <text x="64" y="390" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#111110">
-    <tspan fill="#D4420A">ù</tspan> good design can be ugly ù this banner will try not to be
+    <tspan fill="#D4420A">-&gt;</tspan> good design can be ugly / this banner will try not to be
   </text>
 </svg>
