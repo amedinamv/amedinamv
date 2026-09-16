@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Andres Medina  portfolio</title>
+  <desc id="desc">Warm paper ground, one orange dirt-road path, humanist type. ME brand system.</desc>
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.07  0 0 0 0 0.07  0 0 0 0 0.06  0 0 0 0.22 0" in="noise" result="grain"/>
+      <feBlend in="SourceGraphic" in2="grain" mode="multiply"/>
+    </filter>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5F4F0"/>
+      <stop offset="55%" stop-color="#F5F4F0"/>
+      <stop offset="100%" stop-color="#EEEDEA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground -->
+  <rect width="1280" height="420" fill="url(#fade)"/>
+  <rect width="1280" height="420" fill="#F5F4F0" filter="url(#grain)" opacity="0.9"/>
+
+  <!-- quiet grid (function underneath) -->
+  <g stroke="#C8C7C1" stroke-width="1" opacity="0.35">
+    <line x1="64" y1="0" x2="64" y2="420"/>
+    <line x1="1216" y1="0" x2="1216" y2="420"/>
+    <line x1="0" y1="64" x2="1280" y2="64"/>
+    <line x1="0" y1="356" x2="1280" y2="356"/>
+  </g>
+
+  <!-- the dirt road  one electric moment (accent) -->
+  <path
+    d="M -40 310
+       C 180 290, 260 340, 420 300
+       S 620 240, 780 270
+       S 980 340, 1120 290
+       S 1280 250, 1340 260"
+    fill="none"
+    stroke="#D4420A"
+    stroke-width="14"
+    stroke-linecap="round"
+    opacity="0.92"
+  />
+  <path
+    d="M -40 318
+       C 180 298, 260 348, 420 308
+       S 620 248, 780 278
+       S 980 348, 1120 298
+       S 1280 258, 1340 268"
+    fill="none"
+    stroke="#111110"
+    stroke-width="2"
+    stroke-linecap="round"
+    opacity="0.18"
+  />
+
+  <!-- mono metadata -->
+  <text x="64" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.08em">
+    amedinamv / README.md
+  </text>
+  <text x="920" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6B6A65" letter-spacing="0.06em" text-anchor="end">
+    not a container ù the argument
+  </text>
+
+  <!-- display (humanist grotesque ó system sans until final face ships) -->
+  <text x="64" y="170" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#111110" letter-spacing="-0.03em">
+    Andres Medina
+  </text>
+  <text x="64" y="220" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" fill="#6B6A65">
+    Product &amp; UX designer.
+  </text>
+  <text x="64" y="258" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" fill="#6B6A65">
+    End-to-end product design and research.
+  </text>
+
+  <!-- playful soul wink -->
+  <text x="64" y="390" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#111110">
+    <tspan fill="#D4420A">ù</tspan> good design can be ugly ù this banner will try not to be
+  </text>
+</svg>
