@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./banner.svg" alt="Andres Medina — Product &amp; UX designer" width="100%" />
+  <img src="./banner-v2.svg" alt="Andres Medina - Product and UX designer" width="100%" />
 </p>
 
 <br/>
 
-<img src="./icons/pin.svg" height="18" alt="" /> From **Cali, Colombia**. Remote. Available for select work.
+<img src="./icons/pin.svg" width="20" height="20" alt="" /> From **Cali, Colombia**. Remote. Available for select work.
 
 I design products end-to-end: research, UX, the parts that ship. And I build them.
 
@@ -13,29 +13,29 @@ I try to wear a dirt road instead.
 
 ---
 
-### <img src="./icons/door.svg" height="22" alt="" /> The real surface
+### <img src="./icons/door.svg" width="20" height="20" alt="" /> The real surface
 
 **[andresmv.com](https://andresmv.com)** is the portfolio.  
 Case studies. The claim. The thing I'm willing to be held to.
 
 This GitHub page is the hallway. The site is the room.
 
-**[<img src="./icons/door.svg" height="16" alt="" /> Enter the portfolio](https://andresmv.com)**
+<img src="./icons/door.svg" width="20" height="20" alt="" /> **[Enter the portfolio](https://andresmv.com)**
 
 ---
 
-### <img src="./icons/lab.svg" height="22" alt="" /> Lab
+### <img src="./icons/lab.svg" width="20" height="20" alt="" /> Lab
 
 Things I'm making with my hands in the code. Demos first. Repos stay private until they earn daylight.
 
 | | Thing | What it is | Open it |
 | :---: | --- | --- | --- |
-| <img src="./icons/holo.svg" height="28" alt="" /> | **holo-cards** | Physical-finish card studio. Holo, foil, material. | [open demo](https://holo-cards-iota.vercel.app) |
-| <img src="./icons/toy.svg" height="28" alt="" /> | **soltoy** | Interactive toy. Process scraps, cool moments | [open demo](https://soltoy.vercel.app) |
+| <img src="./icons/holo.svg" width="20" height="20" alt="" /> | **holo-cards** | Physical-finish card studio. Holo, foil, material. | [open demo](https://holo-cards-iota.vercel.app) |
+| <img src="./icons/toy.svg" width="20" height="20" alt="" /> | **soltoy** | Interactive toy. Process scraps, cool moments. | [open demo](https://soltoy.vercel.app) |
 
 ---
 
-### <img src="./icons/notes.svg" height="22" alt="" /> Operating notes
+### <img src="./icons/notes.svg" width="20" height="20" alt="" /> Operating notes
 
 ```
 imitation dressed as taste     →  the real enemy
@@ -45,17 +45,17 @@ good work is quiet             →  so is this account, mostly
 ```
 
 I don't keep a museum of half-finished clones here.  
-If it's public, it earned it. If it's not, ask — or just open the demo.
+If it's public, it earned it. If it's not, ask - or just open the demo.
 
 ---
 
 ### Elsewhere
 
-<a href="https://andresmv.com"><img src="./icons/door.svg" height="28" alt="Portfolio" /></a>
+<a href="https://andresmv.com"><img src="./icons/door.svg" width="20" height="20" alt="Portfolio" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/andresmedinav/"><img src="./icons/linkedin.svg" height="28" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/andresmedinav/"><img src="./icons/linkedin.svg" width="20" height="20" alt="LinkedIn" /></a>
 &nbsp;
-<a href="https://github.com/amedinamv/amedinamv"><img src="./icons/notes.svg" height="28" alt="This README" /></a>
+<a href="https://github.com/amedinamv/amedinamv"><img src="./icons/notes.svg" width="20" height="20" alt="This README" /></a>
 
 ```
 amedinamv/
