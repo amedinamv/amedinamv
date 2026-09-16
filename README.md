@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./banner-v2.svg" alt="Andres Medina - Product and UX designer" width="100%" />
+  <a href="https://andresmv.com">
+    <img src="./banner-v3.svg" alt="Andres Medina - Product and UX designer. Portfolio at andresmv.com" width="100%" />
+  </a>
 </p>
 
 <br/>
